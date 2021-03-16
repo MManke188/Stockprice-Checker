@@ -1,0 +1,40 @@
+#background {
+  z-index: -1;
+  opacity: 80%;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url('https://www.nasdaq.com/sites/acquia.prod/files/image/29525db076bcc42505a356e55dbe94f38b28530b_getty-stock-market-data.jpg?1485517608');
+  background-size: cover;
+}
+
+#testui {
+  position: absolute;
+  background-color: rgba(168, 191, 204, 0.97);
+  border: 6px solid red;
+  padding: 20px;
+  top: 30px;
+  text-align: center;
+  width: fit-content;
+}
+
+#content {
+  display: grid;
+  grid-gap: 20px;
+}
+
+#formField {
+  grid-column: 1;
+  padding: 5px;
+}
+
+#result {
+  background-color: rgb(168, 191, 204);
+  border: 3px ridge rgb(148, 171, 184);
+  width: 240px;
+  grid-column: 2;
+}
