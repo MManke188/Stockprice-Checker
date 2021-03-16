@@ -15,7 +15,8 @@ body {
 #testui {
   position: absolute;
   background-color: rgba(168, 191, 204, 0.97);
-  border: 6px solid red;
+  border: 6px groove red;
+  border-radius: 6px;
   padding: 20px;
   top: 30px;
   text-align: center;
