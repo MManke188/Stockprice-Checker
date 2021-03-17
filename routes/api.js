@@ -14,7 +14,7 @@ module.exports = function (app) {
           .then(data => {
             let responseObject = {
               "stock": data.stockData.stock || 'No such stock exists',
-              "price": data.stockData.price
+              "price": data.stockData.price + ' $'
             }
             res.send(responseObject)
           })
